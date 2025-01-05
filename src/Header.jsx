@@ -22,13 +22,13 @@ function Header() {
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+              Product
           </a>
           <ul class="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Action</a></li>
-            <li><a className="dropdown-item" href="#">Another action</a></li>
-            <li><hr className="dropdown-divider"/></li>
-            <li><a className="dropdown-item" href="#">Something else here</a></li>
+            <li><Link className="dropdown-item" to="/Product">Product</Link></li>
+            <li><Link className="dropdown-item" to="/Product/Details">Product Details</Link></li>
+            <li><Link className="dropdown-item" to="/Product/Create">Create Product</Link></li>
+            <li><Link className="dropdown-item" to="/Product/List">Product List</Link></li>
           </ul>
         </li>
         <li className="nav-item">
