@@ -25,6 +25,7 @@ root.render(
           <Route index element={<Product />}></Route>
           <Route path="Create" element={<CreateProduct />}></Route>
           <Route path="Details" element={<ProductDetails />}></Route>
+          <Route path="Details/:id" element={<ProductDetails />}></Route>
           <Route path="List" element={<ProductList />}></Route>
         </Route>
         <Route path="*" element={<NotFound/>}></Route>
