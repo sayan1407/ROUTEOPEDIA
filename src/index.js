@@ -9,8 +9,9 @@ import About from './About';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
-    <Header/>
+    
     <BrowserRouter>
+    <Header/>
        <Routes>
           <Route path='/' element={<Home/>}></Route>
           <Route path='/about' element={<About/>}></Route>
